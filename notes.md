@@ -26,3 +26,8 @@ comments folder:
 `mkdir posts & cd posts`  
 `npm init -y`  
 `npm i express cors axios nodemon`  
+
+## Posts Service Creation
+Methods:
+- get
+- post - create new post
