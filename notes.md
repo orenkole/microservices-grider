@@ -64,3 +64,13 @@ app.listen(4001, () => {
   console.log("Listening on 4000")
 })
 ```
+`npm start`
+
+```json
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+```
+
+## React Project Setup
+`npm i axios`
