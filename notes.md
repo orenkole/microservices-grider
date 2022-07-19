@@ -74,3 +74,22 @@ app.listen(4001, () => {
 
 ## React Project Setup
 `npm i axios`
+
+## Building Post Submission
+
+Add bootstrap
+_public/index.html_
+```html
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+```
+
+## Handling CORS Errors
+For posts and comments apps:  
+`npm i cors`  
+
+_posts/index.js_, _comments/index.js_  
+```js
+const cors = require("cors")
+
+app.use(cors())
+```
