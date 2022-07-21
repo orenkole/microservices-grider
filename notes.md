@@ -93,3 +93,4 @@ const cors = require("cors")
 
 app.use(cors())
 ```
+## Fetching and Rendering Posts
