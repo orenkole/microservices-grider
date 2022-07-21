@@ -94,3 +94,18 @@ const cors = require("cors")
 app.use(cors())
 ```
 ## Fetching and Rendering Posts
+
+## Request Minimization Strategies
+
+## Request Minimization Strategies
+
+Event broker - handle notifications  
+Query service - listen to event and serve data to browser in one request  
+
+![img.png](images-notes/event-bus-1.png)
+![img_1.png](images-notes/event-bus-2.png)
+![img.png](images-notes/event-bus-3.png)
+![img.png](images-notes/event-bus-4.png)
+
+Now we'll do requests not to _posts_ and _comments_ services, but tu _query_ service  
+Faster because we don't do queries between services _posts_ and _comments_  
